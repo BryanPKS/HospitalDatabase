@@ -1,0 +1,51 @@
+--------------------------------------------------------
+--  File created - Friday-December-09-2022   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table MEDICATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "SYS"."MEDICATIONS" 
+   (	"MEDICATIONID" NUMBER, 
+	"NAME" VARCHAR2(30 BYTE), 
+	"BRAND" VARCHAR2(30 BYTE), 
+	"CATAGORY" VARCHAR2(20 BYTE)
+   ) PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into SYS.MEDICATIONS
+SET DEFINE OFF;
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1001,'Mucus Relief Cold and Sinus','Aspirin','Pain Relief');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1002,'Detox Liver','Tacrolimus','Heart Disease');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1003,'Betapace AF','Cotton Linters','Sleep Aid');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1004,'Naloxone Hydrochloride','TROSPIUM CHLORIDE','Antacid');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1005,'Calcium Acetate','Potassium Chloride','Antianxiety');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1006,'Night Time Original','levothyroxine sodium','Pain Relief');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1007,'UNITHROID','medroxy acetate','Heart Disease');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1008,'Depo-Provera','Chlorphen maleate','Sedative');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1009,'Tri-Buffered Aspirin','Triclosan','Sleep Aid');
+Insert into SYS.MEDICATIONS (MEDICATIONID,NAME,BRAND,CATAGORY) values (1010,'Protopic','Acetaminophen','Pain Relief');
+--------------------------------------------------------
+--  DDL for Index MEDICATIONS_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "SYS"."MEDICATIONS_PK" ON "SYS"."MEDICATIONS" ("MEDICATIONID") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table MEDICATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "SYS"."MEDICATIONS" MODIFY ("MEDICATIONID" NOT NULL ENABLE);
+  ALTER TABLE "SYS"."MEDICATIONS" ADD CONSTRAINT "MEDICATIONS_PK" PRIMARY KEY ("MEDICATIONID")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
+  BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
