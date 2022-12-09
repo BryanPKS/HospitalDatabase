@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="853911A6-55CC-93A9-C893-7111C86DA7E1" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="DEPARTMENTS">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:45 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPARTMENTID" id="D1958EA2-C956-1EC2-6047-0AF2BD3547FA">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STAFFID" id="D1224708-A38F-E4F3-079E-130F1CECE179">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>STAFFID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="69C945C2-68F0-0B3A-C213-1CEA867D4D60">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLEARENCE" id="C1642E02-B1B8-FD3D-F6DE-A546347F0B7E">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>CLEARENCE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BASEPAY" id="9AB4E8D6-F801-06CF-52E3-A1BFCCA42770">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>DEPARTMENTS</sourceObjSchema>
+<sourceObjName>BASEPAY</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB935A51-79C6-B84C-39B5-5277A7A393E2" name="DEPARTMENTS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:48 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1958EA2-C956-1EC2-6047-0AF2BD3547FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C26BEC44-F27E-FA42-9417-D4A18E8E2CC9" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="DEPARTMENTS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>DEPARTMENTS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:48 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1958EA2-C956-1EC2-6047-0AF2BD3547FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

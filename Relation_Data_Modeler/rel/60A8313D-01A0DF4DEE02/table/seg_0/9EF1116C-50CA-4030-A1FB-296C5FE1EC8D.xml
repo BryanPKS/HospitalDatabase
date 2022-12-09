@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EF1116C-50CA-4030-A1FB-296C5FE1EC8D" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="MEDICATIONS">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>MEDICATIONS</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEDICATIONID" id="002A24F0-B677-0889-3B88-C86CB7487DCC">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>MEDICATIONS</sourceObjSchema>
+<sourceObjName>MEDICATIONID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="4B70A2AB-2D23-27EA-0ED2-E7B28E3A8D68">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>MEDICATIONS</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BRAND" id="184341E0-E473-53E6-B423-B71D6939C72F">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>MEDICATIONS</sourceObjSchema>
+<sourceObjName>BRAND</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATAGORY" id="AEDCC45C-483E-3118-7E58-A760BE9B6B07">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>MEDICATIONS</sourceObjSchema>
+<sourceObjName>CATAGORY</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77763D4D-529A-D094-D92F-ECEA5497B564" name="MEDICATIONS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>MEDICATIONS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002A24F0-B677-0889-3B88-C86CB7487DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C94FFE93-295F-031C-5DE5-2701ECC8963D" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="MEDICATIONS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>MEDICATIONS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="002A24F0-B677-0889-3B88-C86CB7487DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE79ED5E-6C59-C0ED-8398-689909A27472" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="PRESCRIPTIONS">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PRESCRIPTIONS</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRESCRIPTIONID" id="79DB39ED-F584-78D3-8CF3-D97ABFFB6C57">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>PRESCRIPTIONS</sourceObjSchema>
+<sourceObjName>PRESCRIPTIONID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICATIONID" id="7D16CD89-CA22-0FB4-EA55-0EA99D4C0CF5">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>PRESCRIPTIONS</sourceObjSchema>
+<sourceObjName>MEDICATIONID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="908C866D-62DA-8077-1A87-509CB1F24130" referredColumn="002A24F0-B677-0889-3B88-C86CB7487DCC"/>
+</associations>
+</Column>
+<Column name="PRESCRIPTIONDATE" id="192136C5-ECE6-D999-95DF-B62F70E69522">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>PRESCRIPTIONS</sourceObjSchema>
+<sourceObjName>PRESCRIPTIONDATE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPOINTMENTID" id="BFD90CE2-9FE1-05D6-E31E-63218E1DBAAB">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>PRESCRIPTIONS</sourceObjSchema>
+<sourceObjName>APPOINTMENTID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOSAGE" id="7AA67609-ECBC-C004-6E17-74F2A7DD3C77">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>PRESCRIPTIONS</sourceObjSchema>
+<sourceObjName>DOSAGE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,38,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDAE2B45-5E50-0CC4-93B7-06CFB5901911" name="PRESCRIPTION_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PRESCRIPTION_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DB39ED-F584-78D3-8CF3-D97ABFFB6C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70A1C2F0-2CCF-3555-B8A3-529A9026BAD0" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="PRESCRIPTION_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PRESCRIPTION_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79DB39ED-F584-78D3-8CF3-D97ABFFB6C57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4689B339-45C3-EF44-C100-BF3CC25CC7F4" name="PRESCRIPTION_FK1">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:29 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D16CD89-CA22-0FB4-EA55-0EA99D4C0CF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

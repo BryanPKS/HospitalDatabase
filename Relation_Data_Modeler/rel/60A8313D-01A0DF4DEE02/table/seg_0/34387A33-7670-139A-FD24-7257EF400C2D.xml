@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34387A33-7670-139A-FD24-7257EF400C2D" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="APPOINTMENTS">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>APPOINTMENTS</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="APPOINTMENTID" id="0E23CAD4-7CEE-67EF-50CB-4DA88CE8ED75">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>APPOINTMENTID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCTORID" id="BCD3C6B4-C360-22C8-7267-B7BA0695A201">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>DOCTORID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="911C16AC-C94A-3C41-7440-F8F0AB7B2726" referredColumn="0C5FE55F-83B5-8AF4-083F-A0B5B1F8DFD1"/>
+</associations>
+</Column>
+<Column name="PATIENTID" id="179671AA-7870-10E3-B8D2-CEA3565DB2A8">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>PATIENTID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD22510C-0F50-0866-F12D-8B9FDAD505AA" referredColumn="CD49E3EA-190D-492F-6975-F0F57164DB06"/>
+</associations>
+</Column>
+<Column name="DIAGNOSISID" id="55292698-8564-C77F-AD8A-1FFAA2D91B53">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>DIAGNOSISID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOMNUMBER" id="BB29E5C3-EF9F-769F-8A0A-4870A13AAF9B">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>ROOMNUMBER</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRESCRIPTIONID" id="621DB045-4802-2916-EEE6-C77536D1772E">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>PRESCRIPTIONID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF370EFF-256D-BC21-1035-08522E7B3B66" referredColumn="79DB39ED-F584-78D3-8CF3-D97ABFFB6C57"/>
+</associations>
+</Column>
+<Column name="STARTDATE" id="8BEDD86F-DE2E-0B76-4F77-162321D1D21F">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>STARTDATE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDDATE" id="3A4E38F0-1802-93CD-5BED-71D710F6744C">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>ENDDATE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILL" id="9E57385A-4760-4C04-E62B-C3D2A9ABAD9F">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>APPOINTMENTS</sourceObjSchema>
+<sourceObjName>BILL</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97A8174D-2CE4-9AC3-9FE6-809E118D40C4" name="APPOINTMENTS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>APPOINTMENTS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E23CAD4-7CEE-67EF-50CB-4DA88CE8ED75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E32DDCB5-D5BD-0EA0-CF02-2D7F087F021C" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="APPOINTMENTS_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>APPOINTMENTS_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E23CAD4-7CEE-67EF-50CB-4DA88CE8ED75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E50261E8-264D-2529-7003-C07F00750127" name="APPOINTMENTS_FK1">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BCD3C6B4-C360-22C8-7267-B7BA0695A201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A076DF1-4734-1CDF-CD5A-83C60C1485F4" name="APPOINTMENTS_FK2">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="179671AA-7870-10E3-B8D2-CEA3565DB2A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="598EDE12-EF3C-CEDE-BE61-E13171BAC6BC" name="APPOINTMENTS_FK3">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621DB045-4802-2916-EEE6-C77536D1772E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

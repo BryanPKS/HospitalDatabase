@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPARTMENTS" directorySegmentName="seg_0" id="853911A6-55CC-93A9-C893-7111C86DA7E1">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:45 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>97AFD6B7-7573-0798-52B2-72C36D1303AB</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="69C945C2-68F0-0B3A-C213-1CEA867D4D60">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BASEPAY" id="9AB4E8D6-F801-06CF-52E3-A1BFCCA42770">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLEARENCE" id="C1642E02-B1B8-FD3D-F6DE-A546347F0B7E">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STAFFID" id="D1224708-A38F-E4F3-079E-130F1CECE179">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENTID" id="D1958EA2-C956-1EC2-6047-0AF2BD3547FA">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:46 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTMENTS_PK" id="C26BEC44-F27E-FA42-9417-D4A18E8E2CC9">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:48 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTMENTS_PK" id="CB935A51-79C6-B84C-39B5-5277A7A393E2">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:48 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<existingIndex>C26BEC44-F27E-FA42-9417-D4A18E8E2CC9</existingIndex>
+<indexSegment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="60A8313D-B2E4-572E-C9BD-01A0DF4DEE02" mainViewID="5FA59781-9463-E478-6ADC-20741A7A1F5A">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:30:37 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Generic_Hospital</connName>
+<connUser>SYS</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

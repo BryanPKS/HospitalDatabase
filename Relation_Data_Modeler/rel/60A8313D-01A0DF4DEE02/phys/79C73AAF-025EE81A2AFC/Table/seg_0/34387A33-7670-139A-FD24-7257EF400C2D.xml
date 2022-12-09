@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="APPOINTMENTS" directorySegmentName="seg_0" id="34387A33-7670-139A-FD24-7257EF400C2D">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>97AFD6B7-7573-0798-52B2-72C36D1303AB</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APPOINTMENTID" id="0E23CAD4-7CEE-67EF-50CB-4DA88CE8ED75">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PATIENTID" id="179671AA-7870-10E3-B8D2-CEA3565DB2A8">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENDDATE" id="3A4E38F0-1802-93CD-5BED-71D710F6744C">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIAGNOSISID" id="55292698-8564-C77F-AD8A-1FFAA2D91B53">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESCRIPTIONID" id="621DB045-4802-2916-EEE6-C77536D1772E">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STARTDATE" id="8BEDD86F-DE2E-0B76-4F77-162321D1D21F">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BILL" id="9E57385A-4760-4C04-E62B-C3D2A9ABAD9F">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOMNUMBER" id="BB29E5C3-EF9F-769F-8A0A-4870A13AAF9B">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCTORID" id="BCD3C6B4-C360-22C8-7267-B7BA0695A201">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="APPOINTMENTS_PK" id="E32DDCB5-D5BD-0EA0-CF02-2D7F087F021C">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="APPOINTMENTS_FK2" id="3A076DF1-4734-1CDF-CD5A-83C60C1485F4">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="APPOINTMENTS_FK3" id="598EDE12-EF3C-CEDE-BE61-E13171BAC6BC">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="APPOINTMENTS_FK1" id="E50261E8-264D-2529-7003-C07F00750127">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="APPOINTMENTS_PK" id="97A8174D-2CE4-9AC3-9FE6-809E118D40C4">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:03 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<existingIndex>E32DDCB5-D5BD-0EA0-CF02-2D7F087F021C</existingIndex>
+<indexSegment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

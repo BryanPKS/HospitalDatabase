@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62CD6B3B-4FBA-13B6-4A42-E73845B7E398" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="STAFF">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>STAFF</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STAFFID" id="0C5FE55F-83B5-8AF4-083F-A0B5B1F8DFD1">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>STAFFID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTMENTID" id="3AF89091-EEBA-908E-11E5-8DBA09718C60">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>DEPARTMENTID</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEBEF8D5-0F4F-75FA-77F9-C0903AD69803" referredColumn="D1958EA2-C956-1EC2-6047-0AF2BD3547FA"/>
+</associations>
+</Column>
+<Column name="OFFICENAME" id="2B96AC01-3D0A-9805-2F50-D263FDD5F0FE">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>OFFICENAME</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFICEPHONE" id="06F602FC-7BDE-9286-2E87-37F5FCD2390B">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>OFFICEPHONE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST" id="6C37A530-DADC-59BC-341F-31F25384FFA5">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>FIRST</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST" id="ACC9E551-2BB7-6B39-E5ED-4859C9F4015A">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>LAST</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="3C30A5E7-76F2-5F25-26EA-12409C5282C2">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERSONALPHONE" id="F6D30DE5-1062-F468-6D02-E97FDDF36B2A">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>PERSONALPHONE</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="82182C10-33D7-97B2-1F80-693C11396493">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>STAFF</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB0DD1B4-5DED-C896-8FD3-ECC3673EB9E8" name="STAFF_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>STAFF_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5FE55F-83B5-8AF4-083F-A0B5B1F8DFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8C1B845-3BF0-5E30-64D4-2967CB2D3F19" schemaObject="BCA92FE6-C549-4240-9C68-80FC8ADAFAAF" name="STAFF_PK">
+<sourceConnName>Generic_Hospital</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>STAFF_PK</sourceObjName>
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C5FE55F-83B5-8AF4-083F-A0B5B1F8DFD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD84D728-1B02-07D2-EC62-CD00F06C1A26" name="STAFF_FK1">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:51 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3AF89091-EEBA-908E-11E5-8DBA09718C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

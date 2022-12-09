@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="MEDICATIONS" directorySegmentName="seg_0" id="9EF1116C-50CA-4030-A1FB-296C5FE1EC8D">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>97AFD6B7-7573-0798-52B2-72C36D1303AB</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MEDICATIONID" id="002A24F0-B677-0889-3B88-C86CB7487DCC">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BRAND" id="184341E0-E473-53E6-B423-B71D6939C72F">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="4B70A2AB-2D23-27EA-0ED2-E7B28E3A8D68">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATAGORY" id="AEDCC45C-483E-3118-7E58-A760BE9B6B07">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MEDICATIONS_PK" id="C94FFE93-295F-031C-5DE5-2701ECC8963D">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<schemaObject>BCA92FE6-C549-4240-9C68-80FC8ADAFAAF</schemaObject>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEDICATIONS_PK" id="77763D4D-529A-D094-D92F-ECEA5497B564">
+<createdBy>zip</createdBy>
+<createdTime>2022-12-09 23:31:17 UTC</createdTime>
+<ownerDesignName>Relation_Data_Modeler</ownerDesignName>
+<segment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</segment>
+<tableSpace>8DD5ABFB-9452-4117-DA95-91FF819FCCD7</tableSpace>
+<existingIndex>C94FFE93-295F-031C-5DE5-2701ECC8963D</existingIndex>
+<indexSegment>CA7856BA-19F0-3255-B0A4-0AB5A9B36012</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
